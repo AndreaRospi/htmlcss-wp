@@ -1,98 +1,114 @@
+/* commons */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    padding: 10px 120px;
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+} 
+
+
+.left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* header */
 .header-top {
-    height: 70px;
-    margin-bottom: 20px;
-    background-color: #e579e6
+    height: 100px;
 }
 
-.header-bottom {
-    height: 350px;
-    margin-bottom: 20px;
-    background-color: #e1d67a
+#logo{
+    height: 60px;
+    padding-right: 15px;
+    border-right: 1px solid #f3f3f3;
 }
 
-/* /header */
+#navigatore{
+    height: 40px;
+    
+    vertical-align: 40px;
+}
+
+nav{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
 
 /* main */
-
-main{
-    margin-bottom: 8px;
-    background-color: #0085ff
+main {
+    padding-bottom: 20px;
+}
+.col-sn,
+.col-dx {
+    width: 25%;
 }
 
-
-
-.main-top{
-    /* *****debug***** */
-    height: 50px;
-    /* *****debug***** */
-    background-color: #abcfe7
+.main-content {
+    width: 46%;
+    margin: 0 2%;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-
-}
-
-.boxl{
-    width: 20%;
-    margin: 1% 1% 1% 0;
-}
-
-.boxc{
-    width: 56%;
-    margin: 1%;
-}
-
-.boxr{
-    width: 20%;
-    margin: 1% 0 1% 1%;
-}
-
-.left{
-    float: left;
-}
-
-/* /header */
 
 /* footer */
 
 footer {
-    height: 60px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+
+/* ***** debug **** */
+
+.debug main {
+    background-color: #0085ff
+}
+.debug footer {
     background-color: #8801fe
 }
 
-/* /footer */
-
-/* ****** debug ****** */
-
-.section-box, .debug{
-    height: 290px;
+.debug .header-top {
+    background-color: #e579e6
 }
 
-
-.debug .boxl, .debug .boxc, .debug .boxr{
-    height: 96%;
-    background-color: #abcfe7;
+.debug .jumbo {
+    height: 450px;
+    background-color: #e1d67a
 }
 
-.debug-main{
-    height: 350px;
+.debug .title {
+    height: 70px;
+    background-color: #abcfe7
 }
 
-/* ****** /debug ****** */
+.debug .col-sn, 
+.debug .main-content, 
+.debug .col-dx {
+    height: 450px;
+    background-color: #abcfe7
+}
 
 
 

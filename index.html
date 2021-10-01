@@ -1,45 +1,61 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Layout con Float</title>
-     <link rel="stylesheet" href="css/style.css">
- </head>
- <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struttura wordpress</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <!-- inzio header -->
+    <div class="container debug">
+        <!-- inizio header -->
+        <header>
 
-    <header>
-        <div class="header-top"></div>
-        <div class="header-bottom"></div>
-    </header>
-
-    <!-- /header -->
-
-    <!-- inizio main -->
-
-    <main class="debug-main">
-        <div class="main-top"></div>
-            <div class="section-box clearfix debug">
-                <aside class="boxl left"> </aside>
-                <aside class="boxc left"> </aside>
-                <aside class="boxr left"> </aside>
+            <div class="header-top mb-20">
+               <img id="logo" src="img/logo.png" alt="">
+               <div id="navigatore">
+                <nav>
+                    <ul>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Home</a></li>
+                    </ul>
+                </nav>
+               </div>
             </div>
-    </main>
+            <div class="jumbo mb-20"></div>
 
-    <!-- /main -->
+        </header>
+        <!-- / header -->
 
-    <!-- inizio footer -->
+        <!-- inizio main -->
+        <main>
+            <!-- sezione dello slogan -->
+            <div class="title mb-20"></div>
+            <!-- / slogan -->
 
-    <footer>
+            <!-- content -->
+            <div class="content clearfix">
+                <aside class="col-sn left"></aside>
+                <div class="main-content left"></div>
+                <aside class="col-dx left"></aside>
+            </div>
+            <!-- /content -->
+        </main>
+        <!-- /main -->
 
-    </footer>
+        <!-- inizio footer -->    
+        <footer>
+            
+        </footer>
+        <!-- /footer -->
 
-    <!-- /footer -->
-
-
-
- </body>
- </html>
+    </div>   
+    
+</body>
+</html>
