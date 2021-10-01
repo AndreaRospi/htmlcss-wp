@@ -79,6 +79,7 @@ li{
 .title-jumbo{
     width: 60%;
     padding-top: 265px;
+    padding-bottom: 70px;
     margin-left: 35px;
 }
 
@@ -162,6 +163,15 @@ footer {
     height: 90px;
     margin-top: 10px;
 }
+
+.credits{
+    text-align: center;
+}
+
+.love{
+    color: red;
+}
+
 
 
 /* ***** debug **** */
