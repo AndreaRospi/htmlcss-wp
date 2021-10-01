@@ -137,6 +137,14 @@ p{
     border-radius: 5%; 
 }
 
+.img-dx{
+    height: 230px;
+    width: 272px;
+    object-fit: cover;
+    border-radius: 5%;
+
+}
+
 .col-sn,
 .col-dx {
     width: 25%;
