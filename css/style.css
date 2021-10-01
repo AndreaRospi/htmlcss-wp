@@ -63,6 +63,13 @@ li{
     
 }
 
+.jumbo{
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* main */
 main {
@@ -102,7 +109,7 @@ footer {
 
 .debug .jumbo {
     height: 450px;
-    background-color: #e1d67a
+    
 }
 
 .debug .title {
