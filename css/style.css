@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .container {
@@ -27,7 +29,7 @@
 
 /* header */
 .header-top {
-    height: 100px;
+    /* height: 100px; da rimuovere */ 
 }
 
 #logo{
@@ -38,22 +40,27 @@
 
 #navigatore{
     height: 40px;
+    line-height: 40px;
     
-    vertical-align: 40px;
 }
+    
+   
 
-nav{
+a{
     text-decoration: none;
+    text-transform: uppercase;
+    color: #b5b5b5;   
 }
 
 ul{
     list-style: none;
+    
 }
 
 li{
     display: inline-block;
     margin-right: 5px;
-    text-decoration: none;
+    
 }
 
 
@@ -90,7 +97,7 @@ footer {
 }
 
 .debug .header-top {
-    background-color: #e579e6
+    /* background-color: #e579e6 */
 }
 
 .debug .jumbo {
