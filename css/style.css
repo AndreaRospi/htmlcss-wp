@@ -100,12 +100,24 @@ main {
     padding-bottom: 20px;
 }
 
+/* sezione slogan */
+
 .title h1{
     font-weight: 500;
 }
 
 .subtitle{
     color: #aaaaaa;
+}
+
+/* fine sezione slogan */
+
+.img-sn{
+    height: 230px;
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
 }
 
 .col-sn,
