@@ -99,6 +99,15 @@ li{
 main {
     padding-bottom: 20px;
 }
+
+.title h1{
+    font-weight: 500;
+}
+
+.subtitle{
+    color: #aaaaaa;
+}
+
 .col-sn,
 .col-dx {
     width: 25%;
@@ -138,7 +147,7 @@ footer {
 
 .debug .title {
     height: 70px;
-    background-color: #abcfe7
+    /* background-color: #abcfe7 */
 }
 
 .debug .col-sn, 
