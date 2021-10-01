@@ -120,6 +120,14 @@ main {
     border-radius: 5%;
 }
 
+h4{
+    padding-top: 15px;
+}
+
+p{
+    padding-top: 15px;
+}
+
 .col-sn,
 .col-dx {
     width: 25%;
