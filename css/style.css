@@ -38,6 +38,8 @@
     border-right: 1px solid #f3f3f3;
 }
 
+/* barra di navigazione */
+
 #navigatore{
     height: 40px;
     line-height: 40px;
@@ -63,12 +65,34 @@ li{
     
 }
 
+/* /barra di navigazione  */
+
+/* sezione jumbo  */
+
 .jumbo{
     border-radius: 10px;
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
 }
+
+.title-jumbo{
+    width: 60%;
+    padding-top: 265px;
+    margin-left: 35px;
+}
+
+.title-jumbo h2{
+    color: white;
+    font-size: 39px;
+}
+
+.little-text{
+    color: white;
+    font-size: 13px;
+}
+
+/* fine sezione jumbo  */
 
 
 /* main */
